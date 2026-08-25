@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="موقع تعريفي لجماعة التاريخ والآثار بجامعة السلطان قابوس، يعرض نبذة الجماعة وهيكلتها وأرشيف فعالياتها وروابط حضورها الرقمي."
+    />
+    <title>جماعة التاريخ والآثار | جامعة السلطان قابوس</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="رأس الصفحة">
+      <a class="brand" href="#top" aria-label="العودة إلى بداية الصفحة">
+        <span class="brand-mark" aria-hidden="true">ح</span>
+        <span>
+          <strong>جماعة التاريخ والآثار</strong>
+          <small>History & Archaeology Group</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">فتح القائمة</span>
+      </button>
+      <nav class="nav-links" id="main-nav" aria-label="التنقل الرئيسي">
+        <a href="#about">عن الجماعة</a>
+        <a href="#structure">الهيكلة</a>
+        <a href="#archive">الأرشيف</a>
+        <a href="#contact">التواصل</a>
+      </nav>
+      <a class="nav-cta" href="#contact">تواصل معنا</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img data-feature-image="0" alt="" loading="eager" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">جامعة السلطان قابوس</p>
+          <h1 id="hero-title">نُحيي الذاكرة، ونفتح للتاريخ بابًا رقميًا أوسع.</h1>
+          <p class="hero-copy">
+            واجهة طلابية لجماعة التاريخ والآثار، تجمع التعريف بالجماعة وأرشيف فعالياتها
+            وروابط حضورها الرقمي في مكان واحد.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#archive">استكشف الأرشيف</a>
+            <a class="button secondary" href="https://www.instagram.com/histgroup/" target="_blank" rel="noreferrer">تابع آخر الأخبار</a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="معلومة سريعة">
+          <span>منذ 1990</span>
+          <strong>تاريخ طلابي مستمر</strong>
+          <p>تختص الجماعة بالتاريخ العماني والعالمي وبالأنشطة الثقافية والمعرفية.</p>
+        </aside>
+      </section>
+
+      <section class="section stats-strip" aria-label="أرقام سريعة" data-render="stats"></section>
+
+      <section class="section two-column" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">عن الجماعة</p>
+          <h2 id="about-title">جسر بين ذاكرة المكان وفضول الطلبة.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            تعمل جماعة التاريخ والآثار على تحويل المعرفة التاريخية إلى تجارب قريبة من
+            الطلبة: معارض، ورش، أمسيات ثقافية، وتوثيق يفتح الباب أمام الجمهور لفهم أثر
+            التاريخ في الحاضر.
+          </p>
+          <p>
+            هذه النسخة من الموقع تمنح الجماعة مركزًا رقميًا منظمًا: تعريف واضح، أرشيف
+            قابل للنمو، وروابط مباشرة للحسابات التي يعيش فيها النشاط اليومي.
+          </p>
+        </div>
+      </section>
+
+      <section class="visual-band" aria-label="صور تعبيرية" data-render="feature-images"></section>
+
+      <section class="section" id="structure" aria-labelledby="structure-title">
+        <div class="section-heading">
+          <p class="eyebrow">الهيكلة</p>
+          <h2 id="structure-title">لجان تعمل كفريق واحد.</h2>
+          <p>
+            الهيكلة التالية نموذج افتتاحي قابل للتعديل عند وصول المسميات الرسمية
+            والأسماء المعتمدة من إدارة الجماعة.
+          </p>
+        </div>
+        <div class="committee-grid" data-render="committees"></div>
+      </section>
+
+      <section class="section archive-section" id="archive" aria-labelledby="archive-title">
+        <div class="section-heading">
+          <p class="eyebrow">الأرشيف</p>
+          <h2 id="archive-title">فعاليات تشكّل ذاكرة الجماعة.</h2>
+          <p>
+            كل بطاقة هنا مرتبطة بمصدر عام أو حساب رسمي، لتكون النسخة الأولى موثقة
+            وسهلة التوسيع.
+          </p>
+        </div>
+        <div class="archive-filters" aria-label="تصفية الأرشيف">
+          <button class="filter-button is-active" type="button" data-filter="all">الكل</button>
+          <button class="filter-button" type="button" data-filter="مهرجان">مهرجانات</button>
+          <button class="filter-button" type="button" data-filter="معرض">معارض</button>
+          <button class="filter-button" type="button" data-filter="ورشة">ورش</button>
+          <button class="filter-button" type="button" data-filter="أمسية ثقافية">أمسيات</button>
+        </div>
+        <div class="archive-grid" data-render="archive"></div>
+      </section>
+
+      <section class="section social-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">الحضور الرقمي</p>
+          <h2 id="contact-title">منصة واحدة تقودك إلى كل أثر.</h2>
+        </div>
+        <div class="social-grid" data-render="social"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        موقع تعريفي طلابي لجماعة التاريخ والآثار بجامعة السلطان قابوس. لا يمثل هذا
+        الموقع بوابة رسمية للجامعة.
+      </p>
+      <div>
+        <span>© <span data-current-year></span></span>
+        <a href="#top">العودة للأعلى</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/site-data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

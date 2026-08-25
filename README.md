@@ -1,2 +1,3 @@
-# history-and-archaeology-group
-History and Archaeology Group website
+# History and Archaeology Group
+
+موقع تعريفي لجماعة التاريخ والآثار بجامعة السلطان قابوس.
